@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fuck">
-        <activity android:name=".MainActivity">
+        <activity android:name=".notes.task_10.Task10Activity"></activity>
+        <activity android:name=".notes.task_9.Task9Activity"></activity>
+        <activity android:name=".notes.task_8.Task8Activity"></activity>
+        <activity android:name=".notes.task_7.Task7Activity"></activity>
+        <activity android:name=".notes.task_6.Task6Activity"></activity>
+        <activity android:name=".notes.task_5.Task5Activity"></activity>
+        <activity android:name=".notes.task_4.Task4Activity" />
+        <activity android:name=".notes.task_3.Task3Activity" />
+        <activity android:name=".notes.task_2.Task2Activity" />
+        <activity android:name=".notes.task_1.Task1Activity" />
+        <activity android:name=".Startscreen.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

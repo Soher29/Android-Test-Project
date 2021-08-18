@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".notes.task_1.Task1Activity">
 
     <EditText
         android:id="@+id/et1"
@@ -17,7 +17,7 @@
         android:layout_marginRight="16dp"
 
         android:ems="10"
-        android:hint=" Начеркай шото"
+        android:hint="Введите текст"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toStartOf="@+id/btn"

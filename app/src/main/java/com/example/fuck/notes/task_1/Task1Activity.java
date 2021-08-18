@@ -1,16 +1,16 @@
-package com.example.fuck;
+package com.example.fuck.notes.task_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.InputType;
 import android.view.View;
-import android.view.ViewStructure;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import com.example.fuck.R;
+
+public class Task1Activity extends AppCompatActivity implements View.OnClickListener {
     TextView tv1;
     EditText et1;
     Button btn;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (et1.getText().length() == 0) {
-            et1.setError("ты дэбил");
+            et1.setError("поле пустое");
         } else {
             String str = "\n-" + et1.getText().toString();
             tv1.append(str);
